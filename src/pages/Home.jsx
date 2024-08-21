@@ -26,7 +26,7 @@ function Home() {
             <div className="container mx-auto items-center">
                 <div className='p-20'>
                     <div className=' text-5xl font-semibold text-center mb-10'>
-                        <h1 className='text-black '>เมนูแนะนำ</h1>
+                        <h1 className='text-red-700 '>เมนูแนะนำ</h1>
                     </div>
                     
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
@@ -75,7 +75,7 @@ function Home() {
                     </div>
                     
                     <div className='mx-auto text-3xl font-semibold flex mt-20 justify-center'>
-                        <a href='/menu' className='text-red-700 hover:text-orange-700 hover:text-4xl'> ดูเพิ่มเติม</a>
+                        <a href='/menu' className='text-black hover:text-4xl hover:text-red-700'> ดูเพิ่มเติม</a>
                     </div>
 
                 </div>
