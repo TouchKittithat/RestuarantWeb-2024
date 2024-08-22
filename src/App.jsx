@@ -12,8 +12,11 @@ import Register from './pages/Register';
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+  const [count, setCount] = useState(0);
+  
   return (
+    <div className="App">
     <BrowserRouter>
       <Navbar />
         <Routes>
@@ -24,6 +27,7 @@ function App() {
           <Route path='/register' element={<Register />} />
         </Routes>
     </BrowserRouter>
+    </div>
   )
 }
 

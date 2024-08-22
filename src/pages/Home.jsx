@@ -1,5 +1,6 @@
 import React from 'react'
 import Banner from "../assets/banner-food.png"
+import { useEffect } from 'react';
 
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -8,6 +9,11 @@ import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
 function Home() {
+
+   useEffect(() => {
+        document.title = 'Home';
+   }, []);
+
   return (
     <div className="">
         <div className="bg-gradient-to-r from-red-950 to-red-600">
@@ -16,7 +22,7 @@ function Home() {
                     <div className=' text-6xl font-semibold'>
                         <h1 className='text-white '>ดีลวันอังคาร <br /> ลดราคาอาหารเฉพาะ <br /> ลูกค้ารับที่ร้าน </h1>
                     </div>
-                    <div className='w-24 bg-red-700 p-2 px-3 mt-9 font-semibold rounded-full text-center'>
+                    <div className='w-24 bg-red-700 p-2 px-3 mt-9 font-semibold rounded-full text-center hover:cursor-pointer'>
                         <a href="/menu" className='text-white'>สั่งเลย</a>
                     </div>
                 </div>
