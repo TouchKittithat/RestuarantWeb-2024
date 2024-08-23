@@ -9,6 +9,7 @@ import Location from './pages/Location';
 import Menu from './pages/Menu';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <div className="App">
     <BrowserRouter>
       <Navbar />
+      <main>
         <Routes>
           <Route path='/' element={<Home />} /> 
           <Route path='/location' element={<Location />} />
@@ -26,6 +28,8 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
         </Routes>
+      </main>
+      <Footer />
     </BrowserRouter>
     </div>
   )
