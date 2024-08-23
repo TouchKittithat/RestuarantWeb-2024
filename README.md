@@ -1,5 +1,15 @@
 # React + Vite
 
+#Install Tailwind
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p
+
+#Install Icons
+- npm install react-icons --save
+
+#Run Server
+- npm run dev
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
