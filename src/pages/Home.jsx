@@ -28,7 +28,7 @@ function Home() {
                 </div>
             </div>
         </div>
-        <div className="bg-white">
+        <div className="">
             <div className="container mx-auto items-center">
                 <div className='p-20'>
                     <div className=' text-5xl font-semibold text-center mb-10'>

@@ -15,7 +15,6 @@ function Menu() {
     document.title = 'Menu';
   }, []);
 
-  
 
   return (
     <div className="container mx-auto">
